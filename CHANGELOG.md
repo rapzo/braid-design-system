@@ -1,5 +1,19 @@
 # braid-design-system
 
+## 24.2.0
+
+### Minor Changes
+
+- Box: Add `userSelect="none"`. ([#556](https://github.com/seek-oss/braid-design-system/pull/556))
+
+  **FEATURES**
+
+  **`Box`**
+
+  You can now set `userSelect` to `"none"` directly on `Box`.
+
+  Since the default value of `user-select` in CSS is `"auto"`, you can make this value dynamic by conditionally setting it to `undefined`, e.g. `<Box userSelect={selectable ? undefined : 'none'}`.
+
 ## 24.1.3
 
 ### Patch Changes
